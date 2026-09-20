@@ -4,7 +4,7 @@ using System.Text;
 #nullable disable
 namespace OOP_03.Shipments
 {
-    public class InternationalShipment : Shipment
+   public class InternationalShipment : Shipment
     {
         private string _DestinationCountry;
         private decimal _CustomsFee;
@@ -33,7 +33,7 @@ namespace OOP_03.Shipments
                     _CustomsFee = value;
             }
         }
-        public override decimal EstimatedCost
+       public override decimal EstimatedCost
         {
             get
             {
@@ -50,9 +50,6 @@ namespace OOP_03.Shipments
             base.PrintShipment();
             Console.WriteLine($"The CustomsFee is => {CustomsFee}");
             Console.WriteLine($"The DestinationCountry is => {DestinationCountry}");
-
-
-
         }
 
     }
