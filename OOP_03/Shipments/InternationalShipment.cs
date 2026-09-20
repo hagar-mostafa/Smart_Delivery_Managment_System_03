@@ -42,8 +42,18 @@ namespace OOP_03.Shipments
         }
         public InternationalShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination) : base(trackingCode, description, weight, deliveryFee, destination)
         {
+            DestinationCountry = _DestinationCountry;
             CustomsFee = _CustomsFee;
         }
-       
+        public override void PrintShipment()
+        {
+            base.PrintShipment();
+            Console.WriteLine($"The CustomsFee is => {CustomsFee}");
+            Console.WriteLine($"The DestinationCountry is => {DestinationCountry}");
+
+
+
+        }
+
     }
 }

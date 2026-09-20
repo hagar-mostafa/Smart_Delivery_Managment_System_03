@@ -31,6 +31,11 @@ namespace OOP_03.Shipments
         {
             ExtraFee = _ExtraFee;
         }
-       
+        public override void PrintShipment()
+        {
+            base.PrintShipment();
+            Console.WriteLine($"The ExtraFee is => {ExtraFee}");
+        }
+
     }
 }
