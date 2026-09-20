@@ -1,6 +1,18 @@
 ﻿using System;
 #nullable disable
 
+#region Part 01 — Theoretical Questions Q1
+//-------------------------------Q1-------------------------------
+/*
+----------------------------------- a -----------------------------
+1.overloading : Allows a class to have multiple methods with the same name but different Parameters.
+2.overriding: Allows a derived class to provide a specific implementation of a method that is already defined in its base class
+----------------------------------- b -----------------------------
+1. Static binding(early binding) : resolved at compile time , the compiler performs it , decided by reference type ,  key word : new, faster , less flexible
+2. Dynamic binding(last binding) : resolved at run time , the CLR performs it , decided by object in memory ,  key word : virtual + override, slower , more flexible =>
+(enable polymorphism)
+ */
+#endregion
 
 
 
