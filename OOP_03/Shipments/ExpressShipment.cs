@@ -36,6 +36,5 @@ namespace OOP_03.Shipments
             base.PrintShipment();
             Console.WriteLine($"The ExtraFee is => {ExtraFee}");
         }
-
     }
 }
