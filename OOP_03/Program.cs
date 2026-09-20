@@ -15,6 +15,24 @@
 #endregion
 
 
+#region  Part 01 — Theoretical Questions Q2
+//-------------------------------Q2-------------------------------
+/*
+-----------------------------------a-----------------------------
+ it protect logic , better performance because JIT can often skip the virtual lookup
+
+-----------------------------------b-----------------------------
+A sealed class is a class that cannot be inherited. It stops the inheritance chain completely
+A method can be sealed inside a derived class to prevent further overriding down the chain.
+
+-----------------------------------C-----------------------------
+ it can not be overridden , sealed method prevent that 
+and all this for more protection and the design requirements
+ */
+
+#endregion
+
+
 
 public class Program
 {
